@@ -1,3 +1,4 @@
+gsap.set([".hero-title",".hero-subtitle",".hero-author",".hero-nav"],{visibility:"visible"})
 const tl = gsap.timeline();
 tl.from(".hero-title",{
     x:-200,
