@@ -3,7 +3,6 @@ tl.from(".hero-title",{
     x:-200,
     opacity:0,
     duration:1,
-    delay:0.2,
     scrollTrigger:{
         trigger:".hero-title",
         scroller:"body"
