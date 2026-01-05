@@ -49,7 +49,7 @@ gsap.from("#msg", {
   }
 });
 
-gsap.from("#precision-nutrition .section-title-alt",{
+gsap.from("#precision-nutrition .section-title",{
         y:200,
     opacity:0,
     duration:1,
