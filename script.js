@@ -1,3 +1,4 @@
+
 gsap.registerPlugin(ScrollTrigger);
 gsap.set([".hero-title",".hero-subtitle",".hero-author",".hero-nav"],{visibility:"visible"})
 const tl = gsap.timeline();

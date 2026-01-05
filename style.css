@@ -44,7 +44,7 @@ html, body {
     width: 100vw;
     min-height: 100vh;
     font-family: var(--font-family-primary);
-    background-image: url('./images/body-bg.jpg');
+    background-image: url('./images/body-bg.webp');
     color: var(--color-text-primary);
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
