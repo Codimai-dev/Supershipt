@@ -1,6 +1,6 @@
 
 gsap.registerPlugin(ScrollTrigger);
-gsap.set([".hero-title",".hero-subtitle",".hero-author",".hero-nav"],{visibility:"visible"})
+gsap.set([".hero-content","s.hero-title",".hero-subtitle",".hero-author",".hero-nav"],{visibility:"visible"})
 const tl = gsap.timeline();
 tl.from(".hero-title",{
     x:-200,
@@ -102,7 +102,7 @@ gsap.from("#personalized-nutrition .section-title-alt",{
     duration:1,
     delay:0.2,
     scrollTrigger:{
-        trigger:"#personalized-nutrition",
+        trigger:"#personalized-nutrition .section-title-alt",
         scroller:"body",
     }
 })
